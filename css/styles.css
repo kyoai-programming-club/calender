@@ -1,7 +1,7 @@
 
 body {
   font-family: 'Courier New', monospace;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 table {
@@ -10,6 +10,7 @@ table {
 
 table {
   width: 80%;
+  max-width: 400px;
   height: 80%;
   border-collapse: collapse;
   border: 2px solid #eee;
@@ -22,8 +23,12 @@ tfoot {
 
 th,
 td {
-  padding: 8px 16px;
+  padding: 8px;
   text-align: center;
+}
+
+tbody {
+  height: 400px;
 }
 
 tbody td:first-child {
